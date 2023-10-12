@@ -34,6 +34,9 @@
     align-items: center;
     font-family: sans-serif;
     font-size: 3em;
+    background-image: url(./pics/lotbannerphone.png);
+    background-repeat: none;
+    background-size: 100%;
   }
   .ring {
     width: 200px;
@@ -135,6 +138,9 @@
     align-items: center;
     font-family: sans-serif;
     font-size: 5em;
+    background-image: url(./pics/lotrbanner.png);
+    background-repeat: none;
+    background-size: 100%;
   }
   .ring {
     width: 200px;
@@ -154,6 +160,11 @@
   }
   .card img {
     width: 60%;
+  }
+  .card:hover {
+    z-index: 2;
+    transform: scale(1.5);
+    transition: 2s;
   }
 
   .show .description1 {
